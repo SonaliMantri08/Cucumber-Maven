@@ -7,22 +7,22 @@ import cucumber.api.java.en.When;
 public class CmdStepDefinition {
 
 	@Given("^This is step one$")
-	public void this_is_step_one()  {
-	    
-	    System.out.println("********** STEP 1 **********");
+	public void this_is_step_one() {
+
+		System.out.println("********** STEP 1 **********");
+		System.out.println("Branch 1 created- updating code to review results/output");
 	}
 
 	@When("^This is step two$")
-	public void this_is_step_two()  {
-		 System.out.println("********** STEP 2 **********");
-	    
+	public void this_is_step_two() {
+		System.out.println("********** STEP 2 **********");
+
 	}
 
 	@Then("^This is step three$")
-	public void this_is_step_three()  {
-		 System.out.println("********** STEP 3 **********");
-	    
+	public void this_is_step_three() {
+		System.out.println("********** STEP 3 **********");
+
 	}
 
-	
 }
